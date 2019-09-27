@@ -20,3 +20,6 @@ This div will show Oslo's today's five time prayer schedule.
 
 For both second and third div I used "http://api.aladhan.com/v1/timingsByCity?city=Oslo&country=Norway&method=3" api to get the sunrise/sunset time and prayer schedule.
 and also use Accordion from npm "react-accessible-accordion" package.
+
+
+UiO-git: https://github.uio.no/naimans/adhan
