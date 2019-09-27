@@ -1,5 +1,4 @@
 import React from 'react';
-//import { Route} from 'react-router-dom';
 import './style.css';
 import {QuoteGen} from './QuoteGen'
 import {PrayerTime} from './PrayerTime'
@@ -22,6 +21,3 @@ export const Main = () => {
         </>
     )
 }
-
-//  <div className="quote-gen"><QuoteGen/></div>
-//<Route path="/" exact component={QuoteGen} />
