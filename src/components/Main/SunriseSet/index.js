@@ -1,10 +1,8 @@
 import React, {useState, useEffect} from 'react';
-//import Moment from 'react-moment';
 import './style.css'
 import '../accordion-style.css'
 import * as api from '../PrayerTime/api.js';
 import {Accordion, AccordionItem, AccordionItemHeading,AccordionItemButton, AccordionItemPanel} from 'react-accessible-accordion';
-//import 'react-accessible-accordion/dist/fancy-example.css';
 
 export const SunriseSet = () => {
   const [suntime, setSunTime] = useState(null);
@@ -38,7 +36,6 @@ export const SunriseSet = () => {
                     <dt>Sunset Time : </dt>
                     <dd>{suntime.data.timings.Sunset}</dd>
                   </dl>
-
               </AccordionItemPanel>
           </AccordionItem>
         </Accordion>
@@ -46,17 +43,3 @@ export const SunriseSet = () => {
     </>
   )
 }
-
-/* <div className = "sunrise-set">
-  <center>
-  <button className="accordion" onClick={openPanel}>Sunrise & Sunset Time</button>
-    <div className="panel">
-      <dl>
-        <dt>Sunrise : </dt>
-        <dd>{suntime.results.sunrise}</dd>
-        <dt>Sunset : </dt>
-        <dd>{suntime.results.sunset}</dd>
-      </dl>
-    </div>
-  </center>
-</div>*/
