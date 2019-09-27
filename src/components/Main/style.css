@@ -1,0 +1,24 @@
+.site-content {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  /*background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1))*/
+  background-image: url("http://3.bp.blogspot.com/-slMS7NVyLFE/Vji0yb_l42I/AAAAAAAAhDc/jBWU_DJexRg/s1600/islamic-architecture-art-by-mshtag21-on-deviantart.jpg)%20no-repeat%20bottom%20right");
+  background-size: cover;
+  flex: 1;
+
+  /*justify-content: center;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;*/
+}
+
+.site-subconent{
+  text-align: center;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: #fff8f8d6;
+}
+
+.site-subconent:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+     }

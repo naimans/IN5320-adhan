@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Sans&display=swap');
+
+@keyframes spin {
+  to {
+    transform: rotateY(360deg) scale(1.1);
+  }
+}
+
+.spinner {
+  animation: 1s ease infinite spin;
+  font-size: 3em;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.quote-gen{
+  text-align : center;
+  padding : 5px 20px;
+}
+
+#content{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.condensedSanSerif{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.mediumSize{
+  font-size : 120%;
+  color: Black;
+}
+
+.smallSize{
+  font-size: 100%;
+  color: Black;
+}
+
+.number-button {
+    margin: 8px;
+    min-width: 64px;
+}
+
+.number-button:hover {
+   background-color: #ccc !important;
+}
+
+/*4d94ff*/

@@ -1,0 +1,24 @@
+.prayer-time{
+  text-align: center;
+  color: Black;
+  padding: 10px 10px;
+}
+
+dl {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+
+dt {
+  text-align: center;
+  color: Black;
+  flex-basis: 40%;
+}
+
+dd {
+  text-align: center;
+  margin: 0;
+  justify-self: flex-end;
+  flex-basis: 60%;
+}

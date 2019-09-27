@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Sans&display=swap');
+
+:root {
+  --primary-color: #db504a;
+  --primary-color-light: #ff6f59;
+  --secondary-color: #254441;
+  --secondary-color-light: #43aa8b;
+  --black-color: #000000;
+  --white-color: #d7fff1;
+}
+
+html  {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after  {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Abril Fatface', serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-header {
+  background: radial-gradient( ellipse at top, rgba(198, 228, 138, 0.09), rgb(0, 0, 0) );
+  text-align: center;
+}
+
+.site-header h1,
+.site-header a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.site-footer {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.site-footer a {
+        text-decoration: none;
+        color: inherit;
+  }
+
+/*dl {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+
+dt {
+  color: white;
+  font-weight: bold;
+  flex-basis: 40%;
+}
+
+dd {
+  margin: 0;
+  justify-self: flex-end;
+  flex-basis: 60%;
+}*/
+
+.genre-chip {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 1.5rem;
+  background: var(--primary-color);
+}
