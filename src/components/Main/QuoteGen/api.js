@@ -1,5 +1,3 @@
-//const URL_Arabic = 'https://api.alquran.cloud/ayah/'+AYAH;
-
 const waitABit = ms => new Promise(resolve => setTimeout(() => resolve(), ms));
 
 export async function getAyat() {
@@ -11,10 +9,3 @@ export async function getAyat() {
   //console.log(result);
   return result;
 }
-
-/*export async function getAyatArabic(id) {
-  await waitABit(1000);
-  const response = await fetch(`${URL_Arabic}`);
-  const data = await response.json();
-  return data;
-}*/
