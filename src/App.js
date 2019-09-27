@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import { Main } from './components/Main'
-//import formatDistanceToNow from 'date-fns/formatDistanceToNow';
-//import {HeaderDiv} from './components/HeaderDiv'
 
 function App() {
   return (
