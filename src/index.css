@@ -55,24 +55,6 @@ h1{
         color: inherit;
   }
 
-/*dl {
-  display: flex;
-  max-width: 400px;
-  flex-wrap: wrap;
-}
-
-dt {
-  color: white;
-  font-weight: bold;
-  flex-basis: 40%;
-}
-
-dd {
-  margin: 0;
-  justify-self: flex-end;
-  flex-basis: 60%;
-}*/
-
 .genre-chip {
   display: inline-block;
   padding: 0.5rem 1rem;
